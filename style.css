@@ -1,0 +1,235 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root { 
+  font-size: 62.5%;
+}
+
+body {
+  background: linear-gradient(180deg, #535971 30%, #E5E5E5 0%);
+}
+
+.page {
+  width: 75rem;
+  margin: auto;
+}
+
+h1 {
+  margin-top: 140px;
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4.8rem;
+  line-height: auto;
+  width: 16.3rem;
+  color: #FFFFFF;  
+}
+
+p {
+  margin-top: 1.8rem;
+  width: 41.7rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  line-height: auto;
+  color: #FFFFFF;
+}
+
+form {
+  margin-top: 5.8rem;
+  background: #ffffff;
+  padding: 6.4rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 3.1rem;
+}
+
+fieldset {
+  border: none;
+}
+
+.fieldset-wrapper {
+  gap: 4rem;
+}
+
+fieldset legend {
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  color: #535971;
+  
+  border-bottom: 1px solid #E6E6F0;
+  margin-bottom: 4rem;
+}
+
+.primeira-mentoria label, .segunda-mentoria label {
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  line-height: 3.4rem;
+  color: #535971;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper input {
+  background: #FAFAFC;
+  border: 1px solid #e6e6f0;
+  border-radius: .8rem;
+  height: 5.6rem;
+  padding: 0 2.4rem;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #739f96;
+}
+
+.input-wrapper label {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: #4E4958;
+  margin-bottom: .8rem;
+  margin-top: 1.6rem;
+}
+
+.input-wrapper label:hover {
+  color: #279a1d;
+  font-size: 1.6rem;
+}
+
+.input-wrapper label span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: #C1BCCC;
+}
+
+.input-wrapper label span:hover {
+  color: #52746d;
+  font-size: 1.4rem;
+}
+
+.nome-e-sobrenome {
+  display: flex;
+  gap: 2.2rem;
+  justify-content: space-between;
+  margin-top: 5.2rem;
+}
+
+.nome-e-sobrenome .input-wrapper input {
+  width: 30rem;
+}
+
+.dados-primeira > div:nth-child(1) {
+  width: 30rem;
+  margin-right: 3.2rem;
+}
+
+.dados-segunda > div:nth-child(1) {
+  width: 30rem;
+  margin-right: 3.2rem;
+}
+
+.dados-primeira > div:nth-child(2) {
+  width: 140px;
+  margin-right: 1rem;
+}
+
+.dados-segunda > div:nth-child(2) {
+  width: 140px;
+  margin-right: 1rem;
+}
+
+.dados-primeira > div:nth-child(3) {
+  width: 14rem;
+}
+
+.dados-segunda > div:nth-child(3) {
+  width: 14rem;
+}
+
+
+form {
+  width: 75rem;
+  border-radius: 2rem 2rem 0 0;
+}
+
+.dados-primeira, .dados-segunda {
+  display: flex;
+}
+
+.primeira-mentoria {
+  margin-bottom: 1.6rem;
+}
+
+footer {
+  height: 16rem;
+  background: #535971;
+  display: flex;
+  flex-direction: column;
+  padding: 5.2rem 7.1rem;
+  margin-bottom: 2rem;
+  border-radius: 0 0 2rem 2rem;
+}
+
+footer input {
+  height: 5.6rem;
+  width: 60.8rem;
+  background: #FF5374;
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #FFFFFF;
+  font-size: 2rem;
+  line-height: 2.6rem;
+  border: none;
+  border-radius: 2rem;
+}
+
+footer input:hover {
+  background: #b41938;
+}
+
+.creator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.creator p {
+  color: #52746d;
+  width: 35%;
+}
+
+.creator a {
+  margin-left: .1rem;
+}
+
+#avatar {
+  margin: 1rem;
+  aspect-ratio: 1;
+  width: 4rem;
+  border-radius: 50%;
+}
+
+#avatar:hover {
+  transform: rotate(15deg) scale(1.2);
+  transition: all .8s;
+  cursor: pointer;
+}
